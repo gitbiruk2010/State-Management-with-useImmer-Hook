@@ -20,7 +20,7 @@ To install the User Profile Manager, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/user-profile-manager.git
+   git clone https:https://github.com/gitbiruk2010/State-Management-with-useImmer-Hook
 2. Navigate to the project directory: app name is user-profile
 3. Install the required npm packages: npm install use-immer inside your project directory
 
