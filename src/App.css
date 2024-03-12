@@ -1,0 +1,85 @@
+/* Basic reset for common elements */
+body, h2, h3, p, div, input, label, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+}
+
+/* Facebook-like theme for the body, setting background color and font */
+body {
+  background-color: #f4f6f8;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #1c1e21;
+}
+
+/* Centering the profile container and adding padding and border for spacing */
+.profile-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid #dddfe2;
+  border-radius: 8px;
+}
+
+/* Adding margin to form groups for spacing between input fields */
+.form-group {
+  margin-bottom: 1.5rem; /* Increased bottom margin for better spacing */
+}
+
+/* Styling for labels to display them as block elements with margin */
+label {
+  display: block;
+  margin-bottom: 0.5rem; /* Adjust as needed for label spacing */
+  text-align: left; /* Aligning text to the left */
+  padding-left: 1rem; /* Padding on the left for some space from the edge */
+}
+
+/* Styling for input fields to include padding and border */
+.form-control {
+  width: calc(100% - 2rem); /* Adjust width to take padding into account */
+  padding: 0.8rem;
+  border: 1px solid #ccd0d5;
+  border-radius: 6px;
+  margin-bottom: 1rem; /* Bottom margin for spacing */
+}
+
+/* General button styling for submission actions */
+.btn {
+  display: block;
+  width: calc(100% - 2rem); /* Adjust width to take padding into account */
+  padding: 0.8rem;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 0 auto 1rem auto; /* Centering button and adding margin for spacing */
+  text-align: center; /* Center button text */
+}
+
+/* Specific styling for primary (blue) buttons */
+.btn-primary {
+  background-color: #1877f2;
+}
+
+/* Specific styling for danger (red) buttons */
+.btn-danger {
+  background-color: #f3425f;
+}
+
+/* Styling for the user profile display section */
+.user-profile-display {
+  background-color: #e9ebee;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1rem; /* Adding space above the profile display */
+}
+
+/* Styling for the user profile header */
+.user-profile-display h3 {
+  margin-bottom: 1rem;
+}
